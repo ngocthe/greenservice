@@ -27,7 +27,7 @@
                     <li><router-link to="/xinco">{{ $t('Xin C/O') }}</router-link></li>
                     <li><router-link to="/tuvanhaiquan">{{ $t('Tư vấn Hải Quan') }}</router-link></li>
                     <li><router-link to="/thutuchaiquan">{{ $t('Thủ tục Hải quan xuất - nhập khẩu') }}</router-link></li>
-                    <li><router-link to="/thutuchaiquan">{{ $t('Thanh khoản hàng gia công, sản xuất xuất khẩu') }}</router-link></li>
+                    <li><router-link to="/thutuchaiquan">{{ $t('Dịch vụ thanh khoản hàng gia công, sản xuất xuất khẩu') }}</router-link></li>
                     <li><router-link to="/thutuchaiquan">{{ $t('Vận tải Nội địa') }}</router-link></li>
                     <li><router-link to="/thutuchaiquan">{{ $t('Dịch vụ kho bãi') }}</router-link></li>
                 </ul>
@@ -38,17 +38,22 @@
             <path fill="white" d="M7 10l5 5 5-5z"></path>
         </svg></a>
                 <ul class="submenu">
-                    <li><router-link to="/waste-management">{{ $t('Tiêu hủy hàng lỗi') }}</router-link></li>
-                    <li><router-link to="/waste-management">{{ $t('Tiêu hủy hàng không có giá trị') }}</router-link></li>
-                    <li><router-link to="/package">{{ $t('Đơn giá') }}</router-link></li>
+                    <li><router-link to="/logistic">{{ $t('logistic') }} </router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/package">{{ $t('package') }}</router-link></li>
                 </ul>
             </li>
 
         <li class="dropdown">
                 <a href="#">{{ $t('Hồ sơ năng lực') }}</a>
                 <ul class="submenu">
-                    <li><router-link to="/sodo">{{ $t('Sơ đồ tổ chức') }}</router-link></li>
-                    <li><router-link to="/hethon">{{ $t('Hệ thống xử lý') }}</router-link></li>
+                    <li><router-link to="/logistic">{{ $t('logistic') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/package">{{ $t('package') }}</router-link></li>
                 </ul>
             </li>
             <li><router-link to="/news">{{ $t('Tin tức') }}</router-link></li>

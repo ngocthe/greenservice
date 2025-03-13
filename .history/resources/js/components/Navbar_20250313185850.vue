@@ -38,17 +38,22 @@
             <path fill="white" d="M7 10l5 5 5-5z"></path>
         </svg></a>
                 <ul class="submenu">
-                    <li><router-link to="/waste-management">{{ $t('Tiêu hủy hàng lỗi') }}</router-link></li>
-                    <li><router-link to="/waste-management">{{ $t('Tiêu hủy hàng không có giá trị') }}</router-link></li>
-                    <li><router-link to="/package">{{ $t('Đơn giá') }}</router-link></li>
+                    <li><router-link to="/logistic">{{ $t('logistic') }} </router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/package">{{ $t('package') }}</router-link></li>
                 </ul>
             </li>
 
         <li class="dropdown">
                 <a href="#">{{ $t('Hồ sơ năng lực') }}</a>
                 <ul class="submenu">
-                    <li><router-link to="/sodo">{{ $t('Sơ đồ tổ chức') }}</router-link></li>
-                    <li><router-link to="/hethon">{{ $t('Hệ thống xử lý') }}</router-link></li>
+                    <li><router-link to="/logistic">{{ $t('logistic') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/waste-management">{{ $t('waste_management') }}</router-link></li>
+                    <li><router-link to="/package">{{ $t('package') }}</router-link></li>
                 </ul>
             </li>
             <li><router-link to="/news">{{ $t('Tin tức') }}</router-link></li>
