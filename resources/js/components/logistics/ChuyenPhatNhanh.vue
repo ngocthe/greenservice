@@ -3,8 +3,8 @@
   <section class="service-section">
     <h1 class="title" v-scroll-reveal>DỊCH VỤ CHUYỂN PHÁT NHANH QUỐC TẾ - NHANH CHÓNG, AN TOÀN, TIẾT KIỆM</h1>
     <p class="intro" v-scroll-reveal>
-      Dịch vụ chuyển phát nhanh quốc tế tại Green Service có gì đặc biệt? Bạn đang tìm kiếm một dịch vụ chuyển phát nhanh
-      quốc tế đáng tin cậy để gửi hàng hóa đi nước ngoài một cách an toàn và nhanh chóng? Green Service cam kết mang đến
+      <b>Dịch vụ chuyển phát nhanh quốc tế </b>tại Green Service có gì đặc biệt? Bạn đang tìm kiếm một dịch vụ chuyển phát nhanh
+      quốc tế đáng tin cậy để gửi hàng hóa đi nước ngoài một cách an toàn và nhanh chóng? <b>Green Service </b>cam kết mang đến
       giải pháp vận chuyển tối ưu với thời gian ngắn nhất, thủ tục đơn giản và chi phí cạnh tranh.
     </p>
     <img style="width:100%" src="/images/cpn.png" />
@@ -16,16 +16,16 @@
         trên thế giới và ngược lại với thời gian giao hàng nhanh chóng. Đây là lựa chọn hàng đầu cho cá nhân, doanh nghiệp cần gửi hàng gấp với độ chính xác cao.
       </p>
       <p>
-        Với hệ thống logistics hiện đại và mạng lưới rộng khắp, Green Service đảm bảo hàng hóa của bạn được giao đến tay người nhận một cách an toàn – đúng hẹn – tiết kiệm.
+        Với hệ thống logistics hiện đại và mạng lưới rộng khắp, <b>Green Service </b>đảm bảo hàng hóa của bạn được giao đến tay người nhận một cách <b>an toàn – đúng hẹn – tiết kiệm</b>.
       </p>
     </div>
     
     <div class="content" v-scroll-reveal>
       <h2>2. Ưu Điểm Khi Sử Dụng Dịch Vụ Chuyển Phát Nhanh Quốc Tế tại Green Service</h2>
       <ul>
-        <li>Thời gian giao hàng nhanh: Giao hàng chỉ từ 1 - 5 ngày tùy theo quốc gia nhận hàng.</li>
+        <li>Thời gian giao hàng nhanh: Giao hàng chỉ từ <b>1 - 5 ngày</b> tùy theo quốc gia nhận hàng.</li>
         <li>Hỗ trợ thủ tục hải quan nhanh chóng.</li>
-        <li>Theo dõi lộ trình đơn hàng trực tuyến 24/7.</li>
+        <li>Theo dõi lộ trình đơn hàng trực tuyến <b>24/7</b>.</li>
         <li>Giao hàng tận nơi, bảo hiểm hàng hóa.</li>
       </ul>
     </div>
@@ -62,10 +62,10 @@
     <div class="content" v-scroll-reveal>
       <h2>6. Tại Sao Nên Chọn Green Service?</h2>
       <ul>
-        <li>Mạng lưới vận chuyển toàn cầu: Hợp tác với các hãng vận chuyển lớn như DHL, FedEx, UPS, TNT, EMS.</li>
-        <li>Cam kết thời gian giao hàng: Đảm bảo đúng lịch trình đã cam kết.</li>
-        <li>Dịch vụ chuyên nghiệp: Hỗ trợ đóng gói, khai báo hải quan, bảo hiểm hàng hóa.</li>
-        <li>Chi phí hợp lý: Giá cước cạnh tranh, nhiều lựa chọn linh hoạt.</li>
+        <li><b>Mạng lưới vận chuyển toàn cầu</b>: Hợp tác với các hãng vận chuyển lớn như DHL, FedEx, UPS, TNT, EMS.</li>
+        <li><b>Cam kết thời gian giao hàng</b>: Đảm bảo đúng lịch trình đã cam kết.</li>
+        <li><b>Dịch vụ chuyên nghiệp</b>: Hỗ trợ đóng gói, khai báo hải quan, bảo hiểm hàng hóa.</li>
+        <li><b>Chi phí hợp lý</b>: Giá cước cạnh tranh, nhiều lựa chọn linh hoạt.</li>
       </ul>
     </div>
   </section>

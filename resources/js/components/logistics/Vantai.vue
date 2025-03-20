@@ -2,7 +2,7 @@
   <div>
   <div class="service-detail">
     <transition name="fade">
-      <h1 class="title">Dịch Vụ Vận Tải Quốc Tế (Sea, Air) – <span style="color:#2E7D32">Giải pháp vận chuyển hiệu quả cho doanh nghiệp của bạn
+      <h1 class="title">Dịch Vụ Vận Tải Quốc Tế (Sea, Air) – <span >Giải pháp vận chuyển hiệu quả cho doanh nghiệp của bạn
       </span></h1>
     </transition>
     
@@ -16,6 +16,7 @@
       <transition name="slide-right" appear>
         <h2>1. Vì sao chọn dịch vụ vận tải quốc tế của Green Service?</h2>
       </transition>
+      <p>Bởi vì tại Green Service có:</p>
       <transition name="fade" appear>
         <ul>
           <li><b>Mạng lưới rộng khắp</b>: Chúng tôi hợp tác với nhiều hãng tàu lớn và hãng hàng không uy tín.</li>
@@ -31,6 +32,7 @@
       <transition name="slide-right" appear>
         <h2>2. Dịch vụ vận tải đường biển (Sea Freight)</h2>
       </transition>
+      <p>Vận tải đường biển là giải pháp phù hợp cho các lô hàng lớn, hàng nặng và hàng có giá trị thấp cần vận chuyển với chi phí tiết kiệm.</p>
       <transition name="fade" appear>
         <ul>
           <li><b>Hàng nguyên container (FCL)</b>: Giải pháp vận chuyển an toàn, nhanh chóng với chi phí hợp lý.</li>
@@ -44,6 +46,8 @@
       <transition name="slide-right" appear>
         <h2>3. Dịch vụ vận tải hàng không (Air Freight)</h2>
       </transition>
+      <p>Vận tải hàng không là giải pháp lý tưởng cho các lô hàng có giá trị cao, cần giao nhận nhanh chóng.
+      </p>
       <transition name="fade" appear>
         <ul>
           <li><b>Dịch vụ hàng không nhanh (Express Air Freight)</b>: Đảm bảo giao hàng nhanh chóng trong thời gian ngắn nhất.</li>
@@ -58,6 +62,8 @@
       <transition name="slide-right" appear>
         <h2>4. Quy trình vận chuyển chuyên nghiệp tại Green Service</h2>
       </transition>
+      <p>Quy trình các bước chuẩn hóa tại Green Service gồm:
+      </p>
       <transition name="fade" appear>
         <div class="process-flow">
           <div class="step">
@@ -97,6 +103,8 @@
       <transition name="slide-right" appear>
         <h2>5. Green Service cam kết về dịch vụ</h2>
       </transition>
+      <p>Chúng tôi luôn cam kết với khách hàng về chất lượng dịch vụ:
+      </p>
       <transition name="fade" appear>
         <ul>
           <li><b>Chính xác về thời gian</b>: Đảm bảo hàng hóa đến đúng lịch trình.</li>
@@ -106,7 +114,7 @@
         </ul>
       </transition>
     </div>
-
+    <p>Với kinh nghiệm gần 20 năm và mạng lưới đối tác mạnh mẽ, chúng tôi cam kết mang đến dịch vụ vận tải quốc tế chuyên nghiệp. Từ đó giúp doanh nghiệp bạn phát triển bền vững trên thị trường toàn cầu. Liên hệ ngay để nhận báo giá và tư vấn chi tiết!</p>
   </div>
   <Footer />
 </div>
@@ -129,7 +137,9 @@ export default {
   font-family: Montserrat, sans-serif;
 
 }
-
+p {
+  font-size: 16px;
+}
 .title {
   font-size: 28px;
   color: #2c3e50;

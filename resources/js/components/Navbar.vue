@@ -24,7 +24,7 @@
                 <ul class="submenu">
                     <li><router-link to="/logistic/vantai">{{ $t('Vận tải quốc tế (Sea, Air)') }}</router-link></li>
                     <li><router-link to="/logistic/chuyenphatnhanh">{{ $t('Chuyển phát nhanh quốc tế') }}</router-link></li>
-                    <li><router-link to="/xinco">{{ $t('Xin C/O') }}</router-link></li>
+                    <li><router-link to="/logistic/co">{{ $t('Xin C/O') }}</router-link></li>
                     <li><router-link to="/tuvanhaiquan">{{ $t('Tư vấn Hải Quan') }}</router-link></li>
                     <li><router-link to="/thutuchaiquan">{{ $t('Thủ tục Hải quan xuất - nhập khẩu') }}</router-link></li>
                     <li><router-link to="/thutuchaiquan">{{ $t('Thanh khoản hàng gia công, sản xuất xuất khẩu') }}</router-link></li>
