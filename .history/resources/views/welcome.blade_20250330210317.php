@@ -3,9 +3,9 @@
     <head>
         <link rel="icon" type="image/png" href="/images/logo.png">
         <title>Green Service - A Reliable Business Partner</title>
-<meta name="description" content="Môi trường, Logistics, Xử lý chất thải, Tiêu hủy hàng lỗi">
-<meta name="keywords" content="Môi trường, Logistics, Xử lý chất thải, Tiêu hủy hàng lỗi">
-<meta name="author" content="CÔNG TY CỔ PHẦN GREENSERVICE">
+<meta name="description" content="Mô tả ngắn về website, chứa từ khóa để SEO tốt hơn">
+<meta name="keywords" content="từ khóa 1, từ khóa 2, từ khóa 3">
+<meta name="author" content="Tên công ty hoặc cá nhân">
 
     </head>
     <body>
