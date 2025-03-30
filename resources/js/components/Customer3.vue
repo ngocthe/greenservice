@@ -1,6 +1,6 @@
 <template>
-  <div class="remarkable-section" v-intersect>
-    <h2 class="section-title animate-title">Những Con Số Ấn Tượng</h2>
+  <div class="remarkable-section" style="background-color: #f5f5f5;" v-intersect>
+    <h2 class="section-title">Những Con Số Ấn Tượng</h2>
     <div class="figures">
       <div v-for="(item, index) in figures" :key="index" class="figure-item animate">
         <count-up v-if="isVisible" :end-val="item.value" :duration="2.5"></count-up><span class="plus-sign">+</span>
@@ -9,8 +9,8 @@
     </div>
     
     <div class="trusted-section">
-      <h2 class="section-title animate-title">Được Tin Cậy Bởi Hơn 100 Tổ Chức Toàn Cầu</h2>
-      <carousel :per-page="3" :autoplay="true" class="logo-slider">
+      <h2 class="section-title">Được Tin Cậy Bởi Hơn 1000 Khách hàng</h2>
+      <carousel :per-page="5" :autoplay="true" class="logo-slider">
         <slide v-for="(logo, index) in logos" :key="index" class="slide-animate">
           <img :src="logo" alt="Trusted logo">
         </slide>
@@ -32,9 +32,6 @@ export default {
           ([entry]) => {
             if (entry.isIntersecting) {
               vnode.context.isVisible = true;
-              document.querySelectorAll('.animate-title').forEach(title => {
-                title.classList.add('visible');
-              });
               observer.disconnect();
             }
           },
@@ -48,16 +45,42 @@ export default {
     return {
       isVisible: false,
       figures: [
-        { value: 100, label: 'Tổ chức' },
-        { value: 35, label: 'Quốc gia' },
-        { value: 500, label: 'Dự án' }
+        { value: 100, label: 'Đối tác' },
+        { value: 35, label: 'Tỉnh thành' },
+        { value: 500, label: 'Nhân Sự' }
       ],
       logos: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg',
-        'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
-        'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
-        'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
-        'https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png'
+     'https://logos-world.net/wp-content/uploads/2023/01/Foxconn-Logo.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VTDnjUqkwNjN4x-x8bNyNHvm-QAkRh9HVg&s',
+      'https://images.samsung.com/is/image/samsung/assets/vn/about-us/brand/logo/mo/360_197_1.png?$720_N_PNG$',
+      'https://www.50mm.vn/wp-content/uploads/2017/11/canon-logo-vector.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWPYTir0pvSdhP9gWlaH5nYHM9E_RlHMyIg&s',
+      'https://media.licdn.com/dms/image/v2/D560BAQF42DyGTQKCwg/company-logo_200_200/company-logo_200_200/0/1689150844143?e=2147483647&v=beta&t=hXjdAjjM-ZehLjUPdkaf7QEH5Ld5outlvbnjll9ciYI',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/1280px-ABB_logo.svg.png',
+      'https://cdn.nhanlucnganhluat.vn/uploads/images/C7885489/logo/2019-12/5bdbc075feae18f041bf.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/b/b7/Mitsubishi-logo.png',
+      'https://goldidea.vn/upload/logo-unilever.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/2/20/LG_symbol.svg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Panasonic_logo_%28Blue%29.svg/2560px-Panasonic_logo_%28Blue%29.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/e/ee/Toyota_logo_%28Red%29.svg',
+      'https://upload.wikimedia.org/wikipedia/commons/a/a6/PepsiCo_logo.svg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZA7UWLVaSQhhlwf5gSDntW4Y8yZi6tUkZmQ&s',
+      'https://logos-world.net/wp-content/uploads/2023/01/Foxconn-Logo.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VTDnjUqkwNjN4x-x8bNyNHvm-QAkRh9HVg&s',
+      'https://images.samsung.com/is/image/samsung/assets/vn/about-us/brand/logo/mo/360_197_1.png?$720_N_PNG$',
+      'https://www.50mm.vn/wp-content/uploads/2017/11/canon-logo-vector.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWPYTir0pvSdhP9gWlaH5nYHM9E_RlHMyIg&s',
+      'https://media.licdn.com/dms/image/v2/D560BAQF42DyGTQKCwg/company-logo_200_200/company-logo_200_200/0/1689150844143?e=2147483647&v=beta&t=hXjdAjjM-ZehLjUPdkaf7QEH5Ld5outlvbnjll9ciYI',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/1280px-ABB_logo.svg.png',
+      'https://cdn.nhanlucnganhluat.vn/uploads/images/C7885489/logo/2019-12/5bdbc075feae18f041bf.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/b/b7/Mitsubishi-logo.png',
+      'https://goldidea.vn/upload/logo-unilever.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/2/20/LG_symbol.svg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Panasonic_logo_%28Blue%29.svg/2560px-Panasonic_logo_%28Blue%29.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/e/ee/Toyota_logo_%28Red%29.svg',
+      'https://upload.wikimedia.org/wikipedia/commons/a/a6/PepsiCo_logo.svg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZA7UWLVaSQhhlwf5gSDntW4Y8yZi6tUkZmQ&s',
+
       ]
     };
   }
@@ -70,20 +93,12 @@ export default {
   padding: 50px 20px;
 }
 .section-title {
-  font-size: 38px;
-  font-weight: 800;
-  font-family: "Canela Web" !important;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-  color: #2c3e50;
+  color: rgb(50, 79, 122);
+  font-family: Montserrat, sans-serif;
+  font-size: 35px;
+  font-weight: 700 !important;
+  text-align: center;
   text-transform: uppercase;
-  opacity: 0;
-  transform: scale(0.8);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-.section-title.visible {
-  opacity: 1;
-  transform: scale(1);
 }
 .figures {
   display: flex;
