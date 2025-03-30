@@ -9,7 +9,7 @@
           <h3 style="text-decoration: underline;">CÔNG TY CỔ PHẦN GREEN SERVICE</h3>
           <p><i class="fas fa-map-marker-alt"></i> Chi nhánh miền Bắc: Tòa nhà VNPT, số 33 Lý Thái Tổ, phường Ninh Xá, Thành phố Bắc Ninh.</p>
           <p><i class="fas fa-map-marker-alt"></i> Chi nhánh miền Trung: Khu công nghiệp Nam Cấm, Xã Nghi Quang, Huyện Nghi Lộc, Tỉnh Nghệ An.</p>
-          <p><i class="fas fa-phone"></i> Miền Bắc: 0973661860 – 0976875493</p>
+          <p><i class="fas fa-phone"></i> Miền Bắc: 0964408641 – 0976875493</p>
           <p><i class="fas fa-phone"></i> Miền Trung: 0913694554</p>
           <p><i class="fas fa-envelope"></i> Email: greenservicejsc@gmail.com</p>
           <p><i class="fas fa-file-invoice"></i> Mã số thuế: 2900594920</p>
