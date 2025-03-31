@@ -25,11 +25,11 @@
                     <li><router-link to="/logistic/vantai">{{ $t('Vận tải quốc tế (Sea, Air)') }}</router-link></li>
                     <li><router-link to="/logistic/chuyenphatnhanh">{{ $t('Chuyển phát nhanh quốc tế') }}</router-link></li>
                     <li><router-link to="/logistic/co">{{ $t('Xin C/O') }}</router-link></li>
-                    <li><router-link to="/tuvanhaiquan">{{ $t('Tư vấn Hải Quan') }}</router-link></li>
-                    <li><router-link to="/thutuchaiquan">{{ $t('Thủ tục Hải quan xuất - nhập khẩu') }}</router-link></li>
-                    <li><router-link to="/thutuchaiquan">{{ $t('Thanh khoản hàng gia công, sản xuất xuất khẩu') }}</router-link></li>
-                    <li><router-link to="/thutuchaiquan">{{ $t('Vận tải Nội địa') }}</router-link></li>
-                    <li><router-link to="/thutuchaiquan">{{ $t('Dịch vụ kho bãi') }}</router-link></li>
+                    <li><router-link to="/logistic/tuvanhaiquan">{{ $t('Tư vấn Hải Quan') }}</router-link></li>
+                    <li><router-link to="/logistic/dichvuhaiquan">{{ $t('Thủ tục Hải quan xuất - nhập khẩu') }}</router-link></li>
+                    <li><router-link to="/logistic/thanhkhoan">{{ $t('Thanh khoản hàng gia công, sản xuất xuất khẩu') }}</router-link></li>
+                    <li><router-link to="/logistic/noidia">{{ $t('Vận tải Nội địa') }}</router-link></li>
+                    <li><router-link to="/logistic/khobai">{{ $t('Dịch vụ kho bãi') }}</router-link></li>
                 </ul>
             </li>
                 <li class="dropdown">

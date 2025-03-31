@@ -14,7 +14,7 @@
           <p><i class="fas fa-envelope"></i> Email: greenservicejsc@gmail.com</p>
           <p><i class="fas fa-file-invoice"></i> Mã số thuế: 2900594920</p>
           <div class="social-icons">
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-faceb  ok"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-linkedin"></i>
           </div>
