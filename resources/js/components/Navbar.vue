@@ -38,9 +38,9 @@
             <path fill="white" d="M7 10l5 5 5-5z"></path>
         </svg></a>
                 <ul class="submenu">
-                    <li><router-link to="/waste-management">{{ $t('Hàng nhập khẩu bị lỗi, hư hỏng') }}</router-link></li>
-                    <li><router-link to="/waste-management">{{ $t('Hàng vi phạm quy định nhập khẩu') }}</router-link></li>
-                    <li><router-link to="/package">{{ $t('Hàng hóa bị thu hồi') }}</router-link></li>
+                    <li><router-link to="/loihong">{{ $t('Hàng nhập khẩu bị lỗi, hư hỏng') }}</router-link></li>
+                    <li><router-link to="/vipham">{{ $t('Hàng vi phạm quy định nhập khẩu') }}</router-link></li>
+                    <li><router-link to="/thuhoi">{{ $t('Hàng hóa bị thu hồi') }}</router-link></li>
                     <li><router-link to="/package">{{ $t('Thực phẩm, mỹ phẩm, dược phẩm quá hạn') }}</router-link></li>
                     <li><router-link to="/package">{{ $t('Hàng giả, hàng nhái, hàng vi phạm sở hữu trí tuệ') }}</router-link></li>
 

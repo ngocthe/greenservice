@@ -12,6 +12,9 @@ import TuVanHaiQuan from './components/logistics/TuVanHaiQuan.vue';
 import DichVuHaiQuan from './components/logistics/DichVuHaiQuan.vue';
 import ThanhKhoan from './components/logistics/ThanhKhoan.vue';
 import NoiDia from './components/logistics/NoiDia.vue';
+import LoiHong from './components/tieuhuy/LoiHong.vue';
+import ThuHoi from './components/tieuhuy/ThuHoi.vue';
+import ViPham from './components/tieuhuy/ViPham.vue';
 
 // import WasteManagement from './components/WasteManagement.vue';
 // import Package from './components/Package.vue';
@@ -31,8 +34,10 @@ const routes = [
     { path: '/logistic/khobai', component: KhoBai },
     { path: '/logistic/chuyenphatnhanh', component: ChuyenPhatNhanh },
     { path: '/logistic/noidia', component: NoiDia },
-    { path: '/package', component: ExampleComponent },
-    { path: '/news', component: ExampleComponent },
+    { path: '/loihong', component: LoiHong },
+    { path: '/thuhoi', component: ThuHoi },
+
+    { path: '/vipham', component: ViPham },
 ];
 
 

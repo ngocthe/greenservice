@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: #2E7D32;">
+  <div style="background-color: #2E7D32; margin: 0">
     <BannerVideo videoSrc="/images/BANNER.mp4" />
     <Intro2 />
     <Intro />

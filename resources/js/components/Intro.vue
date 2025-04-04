@@ -1,6 +1,7 @@
 <template>
   <div class="section_introText" style="
     font-size: 60px;
+    padding: 15px 15px;
     background-color: #f1f1f1;
     font-family: Montserrat, sans-serif;
     color: rgb(129 160 142); text-transform: uppercase;
