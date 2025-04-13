@@ -3,7 +3,9 @@
         <div class="logo">
             <a href="/"><img src="/images/logo.png" alt="Logo" ref="logo"></a>
         </div>
-       
+        <div class="mobile-menu-btn" @click="toggleMobileMenu">
+            ☰
+        </div>
         <ul class="menu" :class="{ 'menu-open': isMobileMenuOpen }">
             <li><router-link to="/">{{ $t('home') }}</router-link></li>
 
@@ -74,9 +76,6 @@
                 <option value="vi">🇻🇳 Tiếng Việt</option>
                 <option value="en">🇺🇸 English</option>
             </select>
-        </div>
-        <div class="mobile-menu-btn" @click="toggleMobileMenu">
-            ☰
         </div>
     </nav>
 </template>
