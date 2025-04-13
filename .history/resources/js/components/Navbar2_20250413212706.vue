@@ -92,60 +92,60 @@
   </template>
   
 
-<script>
-import anime from 'animejs/lib/anime.es.js';
-
-export default {
-  data() {
-    return {
-      search: '',
-      isScrolled: false,
-      isMobileMenuOpen: false,
-      openDropdown: null, // NEW: index của dropdown đang mở
-    };
-  },
-  mounted() {
-    anime({
-      targets: this.$refs.logo,
-      scale: [0, 1],
-      opacity: [0, 1],
-      duration: 1500,
-      easing: 'easeOutElastic'
-    });
-    window.addEventListener('scroll', this.handleScroll);
-  },
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll);
-  },
-  methods: {
-    closeMobileMenu() {
-      this.isMobileMenuOpen = false;
-      this.openDropdown = null;
+  <script>
+  import anime from 'animejs/lib/anime.es.js';
+  
+  export default {
+    data() {
+      return {
+        search: '',
+        isScrolled: false,
+        isMobileMenuOpen: false,
+        openDropdown: null, // NEW: index của dropdown đang mở
+      };
     },
-    toggleMobileMenu() {
-      this.isMobileMenuOpen = !this.isMobileMenuOpen;
-      this.openDropdown = null;
+    mounted() {
+      anime({
+        targets: this.$refs.logo,
+        scale: [0, 1],
+        opacity: [0, 1],
+        duration: 1500,
+        easing: 'easeOutElastic'
+      });
+      window.addEventListener('scroll', this.handleScroll);
     },
-    toggleDropdown(index) {
-      if (this.openDropdown === index) {
+    beforeDestroy() {
+      window.removeEventListener('scroll', this.handleScroll);
+    },
+    methods: {
+      closeMobileMenu() {
+        this.isMobileMenuOpen = false;
         this.openDropdown = null;
-      } else {
-        this.openDropdown = index;
+      },
+      toggleMobileMenu() {
+        this.isMobileMenuOpen = !this.isMobileMenuOpen;
+        this.openDropdown = null;
+      },
+      toggleDropdown(index) {
+        if (this.openDropdown === index) {
+          this.openDropdown = null;
+        } else {
+          this.openDropdown = index;
+        }
+      },
+      handleScroll() {
+        this.isScrolled = window.scrollY > 50;
       }
     },
-    handleScroll() {
-      this.isScrolled = window.scrollY > 50;
+    watch: {
+      $route() {
+        this.isMobileMenuOpen = false;
+        this.openDropdown = null;
+      }
     }
-  },
-  watch: {
-    $route() {
-      this.isMobileMenuOpen = false;
-      this.openDropdown = null;
-    }
-  }
-};
-</script>
-
+  };
+  </script>
+  
 
 <style scoped>
 /* Icon mũi tên xuống */
@@ -171,6 +171,7 @@ export default {
     justify-content: space-between;
     background: #2E7D32;
     /* Màu xanh lá cây */
+    padding: 10px 20px;
     color: white;
     width: 100%;
     transition: all 0.3s ease;
@@ -233,15 +234,6 @@ body {
 .dropdown:hover .submenu {
     display: block;
 }
-.icon {
-    width: 12px;
-    height: 12px;
-    fill: white;
-    transition: transform 0.3s ease;
-  }
-  .dropdown:hover .icon {
-    transform: rotate(180deg);
-  }
 
 .submenu {
     display: none;
@@ -354,55 +346,6 @@ body {
         padding: 10px;
     }
     .right-section {
-        flex-direction: row !important;
-        justify-content: start;
-        flex-wrap: wrap;
-        gap: 10px;
-        padding-top: 10px;
-      }
-    
-      .right-section .social-icons {
-        order: 1;
-      }
-    
-      .language-select {
-        order: 2;
-      }
-      .mobile-menu-btn {
-        display: block;
-      }
-    
-      .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: #2E7D32;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        z-index: 999;
-      }
-    
-      .menu.menu-open {
-        display: flex;
-      }
-    
-      .submenu {
-        position: static;
-        box-shadow: none;
-        width: 100%;
-        display: none;
-      }
-    
-      .dropdown.open .submenu {
-        display: block;
-      }
-    
-      .dropdown:hover .submenu {
-        display: none;
-      }
-    
-      .right-section {
         flex-direction: row !important;
         justify-content: start;
         flex-wrap: wrap;

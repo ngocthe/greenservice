@@ -171,6 +171,7 @@ export default {
     justify-content: space-between;
     background: #2E7D32;
     /* Màu xanh lá cây */
+    padding: 10px 0px;
     color: white;
     width: 100%;
     transition: all 0.3s ease;

@@ -171,6 +171,7 @@ export default {
     justify-content: space-between;
     background: #2E7D32;
     /* Màu xanh lá cây */
+    padding: 10px 20px;
     color: white;
     width: 100%;
     transition: all 0.3s ease;
@@ -354,55 +355,6 @@ body {
         padding: 10px;
     }
     .right-section {
-        flex-direction: row !important;
-        justify-content: start;
-        flex-wrap: wrap;
-        gap: 10px;
-        padding-top: 10px;
-      }
-    
-      .right-section .social-icons {
-        order: 1;
-      }
-    
-      .language-select {
-        order: 2;
-      }
-      .mobile-menu-btn {
-        display: block;
-      }
-    
-      .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: #2E7D32;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        z-index: 999;
-      }
-    
-      .menu.menu-open {
-        display: flex;
-      }
-    
-      .submenu {
-        position: static;
-        box-shadow: none;
-        width: 100%;
-        display: none;
-      }
-    
-      .dropdown.open .submenu {
-        display: block;
-      }
-    
-      .dropdown:hover .submenu {
-        display: none;
-      }
-    
-      .right-section {
         flex-direction: row !important;
         justify-content: start;
         flex-wrap: wrap;
