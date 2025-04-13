@@ -3,58 +3,43 @@
     <!-- Video bên trái -->
     <div ref="videoSection" class="video-section" :class="{ show: videoVisible }">
       <video autoplay loop muted playsinline>
-        <source src="/images/log.mp4" type="video/mp4" />
+        <source src="/images/tieuhuy2.mp4" type="video/mp4" />
         Trình duyệt không hỗ trợ video.
       </video>
       <div class="overlay-text">
-        LOGISTICS
-      
-      <p style="font-size: 15px;">Dịch vụ vận chuyển và lưu kho chuyên nghiệp.</p></div>
-
-
+        <div class="overlay-text">TIÊU HỦY HÀNG LỖI
+          <p style="font-size: 15px;"> Đảm bảo hàng lỗi được xử lý an toàn.</p>
+        </div>
+       
+      </div>
     </div>
 
     <!-- Nội dung bên phải -->
     <div ref="contentSection" class="content-section" :class="{ show: contentVisible }">
       <ul>
         <li>
-          <a href="/logistic/vantai">
-            <i class="fas fa-ship"></i> Vận tải quốc tế (Sea, Air)
+          <a href="#">
+            <i class="fas fa-box-open"></i> Hàng nhập khẩu bị lỗi, hư hỏng
           </a>
         </li>
         <li>
-          <a href="/logistic/chuyenphatnhanh">
-            <i class="fas fa-truck"></i> Chuyển phát nhanh quốc tế
+          <a href="#">
+            <i class="fas fa-exclamation-triangle"></i> Hàng vi phạm quy định nhập khẩu
           </a>
         </li>
         <li>
-          <a href="/logistic/co">
-            <i class="fas fa-file-alt"></i> Xin CO
+          <a href="#">
+            <i class="fas fa-recycle"></i> Hàng hóa bị thu hồi
           </a>
         </li>
         <li>
-          <a href="/logistic/tuvanhaiquan">
-            <i class="fas fa-user-tie"></i> Tư vấn hải quan
+          <a href="#">
+            <i class="fas fa-utensils"></i> Thực phẩm, mỹ phẩm, dược phẩm quá hạn
           </a>
         </li>
         <li>
-          <a href="/logistic/dichvuhaiquan">
-            <i class="fas fa-file-contract"></i> Thủ tục hải quan xuất - nhập khẩu
-          </a>
-        </li>
-        <li>
-          <a href="/logistic/thanhkhoan">
-            <i class="fas fa-industry"></i> Thanh khoản hàng gia công, sản xuất xuất khẩu
-          </a>
-        </li>
-        <li>
-          <a href="/logistic/noidia">
-            <i class="fas fa-truck-moving"></i> Vận tải nội địa
-          </a>
-        </li>
-        <li>
-          <a href="/logistic/khobai">
-            <i class="fas fa-warehouse"></i> Dịch vụ kho bãi
+          <a href="#">
+            <i class="fas fa-gavel"></i> Hàng nhái, hàng giả, hàng vi phạm sở hữu trí tuệ
           </a>
         </li>
       </ul>
@@ -95,15 +80,15 @@ export default {
 
 <style scoped>
 .container {
-  
-  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
   padding: 40px 20px;
   overflow: hidden;
-  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
 
 }
 
@@ -121,7 +106,7 @@ export default {
   width: 100%;
 }
 
-/* Overlay text trên video */
+/* Overlay chứa tiêu đề và mô tả */
 .overlay-text {
   position: absolute;
   bottom: 0;
@@ -131,6 +116,22 @@ export default {
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
+}
+
+
+/* Tiêu đề "TIÊU HỦY HÀNG LỖI" */
+.overlay-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Mô tả "Đảm bảo hàng lỗi được xử lý an toàn." */
+.overlay-subtitle {
+  color: white;
+  font-size: 1rem;
+  margin-top: 5px;
 }
 
 /* Nội dung bên phải */
@@ -153,11 +154,6 @@ export default {
   transform: translateX(0);
 }
 
-p {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-}
-
 /* Danh sách dịch vụ */
 ul {
   list-style: none;
@@ -172,9 +168,9 @@ ul li {
 ul li a {
   display: flex;
   align-items: center;
-  font-size: 1.1rem;
   text-align: start;
 
+  font-size: 1.1rem;
   text-decoration: none;
   color: white;
   transition: color 0.3s;
@@ -183,7 +179,6 @@ ul li a {
 ul li a:hover {
   color: rgb(180, 199, 4);
 }
-
 /* Icon */
 ul li i {
   margin-right: 8px;

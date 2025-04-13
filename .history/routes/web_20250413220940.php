@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 // Vue app fallback route
 Route::get('/{any}', function () {
-    return view('welcome'); // hoặc index nếu bạn dùng file đó
+    return view('app'); // hoặc index nếu bạn dùng file đó
 })->where('any', '.*');

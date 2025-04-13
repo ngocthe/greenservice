@@ -38,22 +38,22 @@
           </a>
         </li>
         <li>
-          <a href="/logistic/dichvuhaiquan">
+          <a href="#">
             <i class="fas fa-file-contract"></i> Thủ tục hải quan xuất - nhập khẩu
           </a>
         </li>
         <li>
-          <a href="/logistic/thanhkhoan">
+          <a href="#">
             <i class="fas fa-industry"></i> Thanh khoản hàng gia công, sản xuất xuất khẩu
           </a>
         </li>
         <li>
-          <a href="/logistic/noidia">
+          <a href="#">
             <i class="fas fa-truck-moving"></i> Vận tải nội địa
           </a>
         </li>
         <li>
-          <a href="/logistic/khobai">
+          <a href="#">
             <i class="fas fa-warehouse"></i> Dịch vụ kho bãi
           </a>
         </li>

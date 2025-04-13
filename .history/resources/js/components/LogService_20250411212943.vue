@@ -18,42 +18,42 @@
     <div ref="contentSection" class="content-section" :class="{ show: contentVisible }">
       <ul>
         <li>
-          <a href="/logistic/vantai">
+          <a href="#">
             <i class="fas fa-ship"></i> Vận tải quốc tế (Sea, Air)
           </a>
         </li>
         <li>
-          <a href="/logistic/chuyenphatnhanh">
+          <a href="#">
             <i class="fas fa-truck"></i> Chuyển phát nhanh quốc tế
           </a>
         </li>
         <li>
-          <a href="/logistic/co">
+          <a href="#">
             <i class="fas fa-file-alt"></i> Xin CO
           </a>
         </li>
         <li>
-          <a href="/logistic/tuvanhaiquan">
+          <a href="#">
             <i class="fas fa-user-tie"></i> Tư vấn hải quan
           </a>
         </li>
         <li>
-          <a href="/logistic/dichvuhaiquan">
+          <a href="#">
             <i class="fas fa-file-contract"></i> Thủ tục hải quan xuất - nhập khẩu
           </a>
         </li>
         <li>
-          <a href="/logistic/thanhkhoan">
+          <a href="#">
             <i class="fas fa-industry"></i> Thanh khoản hàng gia công, sản xuất xuất khẩu
           </a>
         </li>
         <li>
-          <a href="/logistic/noidia">
+          <a href="#">
             <i class="fas fa-truck-moving"></i> Vận tải nội địa
           </a>
         </li>
         <li>
-          <a href="/logistic/khobai">
+          <a href="#">
             <i class="fas fa-warehouse"></i> Dịch vụ kho bãi
           </a>
         </li>

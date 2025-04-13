@@ -45,7 +45,7 @@ const routes = [
 ];
 
 
-export default new VueRouter({ mode: 'history', routes, 
+export default new VueRouter({ mode: 'hash', routes, 
     scrollBehavior(to, from, savedPosition) {
       if (savedPosition) {
         return savedPosition; // Nếu có vị trí đã lưu, cuộn đến đó (hữu ích khi dùng nút back/forward)

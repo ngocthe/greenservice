@@ -18,27 +18,27 @@
       <div ref="contentSection" class="content-section" :class="{ show: contentVisible }">
         <ul>
           <li>
-            <a href="/trongoi">
+            <a href="#">
               <i class="fas fa-leaf"></i> Tư vấn dịch vụ môi trường
             </a>
           </li>
           <li>
-            <a href="/trongoi">
+            <a href="#">
               <i class="fas fa-recycle"></i> Tư vấn quy trình xử lý chất thải
             </a>
           </li>
           <li>
-            <a href="/trongoi">
+            <a href="#">
               <i class="fas fa-trash-alt"></i> Xử lý chất thải thông thường
             </a>
           </li>
           <li>
-            <a href="/yte">
+            <a href="#">
               <i class="fas fa-biohazard"></i> Xử lý chất thải nguy hại
             </a>
           </li>
           <li>
-            <a href="/yte">
+            <a href="#">
               <i class="fas fa-medkit"></i> Xử lý chất thải y tế lây nhiễm
             </a>
           </li>
