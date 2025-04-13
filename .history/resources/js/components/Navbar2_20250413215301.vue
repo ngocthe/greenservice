@@ -340,7 +340,7 @@ body {
     }
   
     .dropdown.open .submenu {
-      display: block !important;
+      display: block;
     }
   
     .right-section {
